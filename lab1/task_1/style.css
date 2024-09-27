@@ -1,0 +1,38 @@
+:root {
+    --color1: rgb(255, 255, 255);
+    --color2: rgb(0, 0, 0);
+}
+
+main {
+    background-color: rgb(197, 139, 101);
+    color: var(--color2);
+}
+
+.container-fluid {
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+.row {
+    background-color: magenta;
+}
+
+.rectangle {
+    background-color: var(--color2);
+    ;
+    height: 300px;
+}
+
+.line-center {
+    display: grid;
+    align-items: center;
+}
+
+/* Colors*/
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
