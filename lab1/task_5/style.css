@@ -1,0 +1,105 @@
+body {
+    background-color: #3A5F46;
+    color: #F5F5DC;
+}
+
+h3 {
+    color: #88C349;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    /* Белая линия */
+}
+
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.departments li::before {
+    content: "\f19d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #204026;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.departments li::before {
+    content: "\f19d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: yellow;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    background-color: #254329;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.col-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid #80ff4e;
+}
+
+.col-center col-12 {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.col-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    border-left: 2px solid #80ff4e;
+}
+
+.row-bot {
+    display: flex;
+    justify-content: left;
+}
+
+.fa-bars {
+    color: orange;
+}
+
+.fa-chart-column {
+    color: yellow;
+}
+
+.col-left .fas {
+    color: #88C349;
+}
