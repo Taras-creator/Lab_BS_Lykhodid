@@ -1,0 +1,12 @@
+.container {
+    background-color: #f5f5dc;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.figure img {
+    height: 100%;
+    object-fit: cover;
+}
