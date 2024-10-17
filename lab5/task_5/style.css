@@ -1,0 +1,29 @@
+:root {
+  --color1: #dba021;
+  --color2: #3cd8f3;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.legend-underline {
+  position: absolute;
+  border-bottom: 2px dotted #34C759;
+}
+
+.color1 {
+  color: var(--color1);
+}
+
+.btn {
+  background-color: var(--color2);
+  color: #fff;
+}
