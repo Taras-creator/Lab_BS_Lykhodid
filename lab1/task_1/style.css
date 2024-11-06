@@ -3,6 +3,8 @@
     --color2: rgb(0, 0, 0);
 }
 
+
+
 main {
     background-color: rgb(197, 139, 101);
     color: var(--color2);
@@ -35,4 +37,39 @@ main {
 
 .color2 {
     color: var(--color2);
+}
+
+/* Media */
+.text-small-screen,
+.text-small-screen-1  {
+    display: none;
+}
+
+.text-large-screen,
+.text-large-screen-1 {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .text-small-screen {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-large-screen {
+        display: block;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .text-small-screen-1 {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-large-screen-1 {
+        display: block;
+    }
 }
